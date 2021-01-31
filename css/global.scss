@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.full {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+    &.red {
+        background: red;
+        color: white;
+        font-size: 2em;
+        
+    }
+
+    &.blue {
+        background: blue;
+        color: white;
+        font-size: 2em;
+        height: 150vh;
+        position: relative;
+    }
+    
+    &.yellow {
+        background: yellow;
+        color: black;
+        font-size: 2em;
+        position: sticky;
+        top: 0px;
+        
+    }
+    &.green {
+        background:green;
+        color: white;
+        font-size: 2em;
+    }
+}
